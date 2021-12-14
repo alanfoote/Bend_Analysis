@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Bend Oregon Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+		<link rel="stylesheet" href="legend.css" />
+
+		<script type="text/javascript" src="legend.js"></script>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script type="text/javascript" src="legend.js"></script>
+
+		<style>
+		   body {
+			     font-family: sans-serif;
+	         max-width: 1000px;
+		       margin: auto;
+	       }
+	    #legend {
+			line-height: 0px;
+			background: white;
+			opacity: 0.8;
+			padding:5px 25px 5px 5px;
+		}
+		</style>
+	</head>
+
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Header -->
+					<header id="header">
+						<h1>Bend Oregon</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="single.html">Population Analysis</a></li>
+								<li><a href="double.html">Income Analysis</a></li>
+									<li><a href="triple.html">Park Space Per Person Analysis</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+						<!-- Links -->
+						<section>
+							<h2> Places of Interest </h2>
+							<ul class="links">
+								<li>
+									<a href="https://www.deschutes.org/">
+										<h3>Descutes County</h3>
+										<p>Website for Deschutes County</p>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.visitbend.com/">
+										<h3>VistBend.com</h3>
+										<p>Information on what do do in Bend.</p>
+									</a>
+								</li>
+								<li>
+									<a href="https://data.deschutes.org/">
+										<h3>Descutes County Data Portal</h3>
+										<p>Interactive geoportal of Descutes county data.</p>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.oregon.gov/Pages/index.aspx">
+										<h3>Oregon.gov</h3>
+										<p>State owned portal for all things Oregon.</p>
+									</a>
+								</li>
+							</ul>
+						</section>
+
+						<!-- Actions -->
+							<section>
+								<ul class="actions stacked">
+									<li><a href="https://www.dandysdrivein.com/" class="button large fit">Get Hamburgers</a></li>
+								</ul>
+							</section>
+
+					</section>
+							<!-- Intro -->
+								<section id="intro">
+									<img src="https://www.territorysupply.com/wp-content/uploads/2019/10/best-hikes-bend-oregon.jpg" alt="wooden walkway" width="900" height="600"/></a>
+									<header>
+										<h2>Parks and Population Analysis of Bend Oregon</h2>
+										<h3>Scrolly Storymap(s) by Alan Foote and <a href="http://html5up.net">HTML5 UP</a></h3>
+									</header>
+								</section>
+
+							<!-- Mini Posts -->
+					<div id="main">
+						<!-- Post -->
+							<article class="post">
+
+								<header>
+									<div class="title">
+										<h2><a href="single.html">Population Analysis</a></h2>
+										<p> Where people live.</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-11-01">December 10, 2021</time>
+										<a href="https://storymaps.arcgis.com/stories/1a236dd732df4750ab7e3271451f38bc" class="author"><span class="name">Alan Foote</span><img src="images/alan-small.jpg" alt="Picture of Author" /></a>
+									</div>
+								</header>
+
+								<a href="single.html" class="image featured"><img src="images/bend-pop2.png" width="800" height="500" alt="" /></a>
+								<h1>This analysis uses American Community Survey data from 2019 to show population distribution across the city of Bend and the distrubution of people living near public green spaces.</h1>
+
+								<footer>
+									<ul class="actions">
+										<li><a href="single.html" class="button large">Continue Reading</a></li>
+									</ul>
+									<ul class="stats">
+										<li><a href="https://worthy.beer/#">Beer</a></li>
+									</ul>
+								</footer>
+							</article>
+
+							<!-- Post -->
+								<article class="post">
+									<header>
+										<div class="title">
+											<h2><a href="double.html">Median Income of Bend</a></h2>
+											<p>What capital people produce.</p>
+										</div>
+										<div class="meta">
+											<time class="published" datetime="2015-10-22">December 10, 2021</time>
+										<a href="https://storymaps.arcgis.com/stories/1a236dd732df4750ab7e3271451f38bc" class="author"><span class="name">Alan Foote</span><img src="images/alan-small.jpg" alt="Picture of Author" /></a>
+										</div>
+									</header>
+
+
+									<a href="double.html" class="image featured"><img src="images/bend-ski2.jpg"  width="700" height="500"  alt="" /></a>
+									<h1>Also using American Community Survey data from 2019, this analysis looks at median household income distribution across the city of Bend with their proximity to public green spaces.</h1>
+
+
+									<footer>
+										<ul class="actions">
+											<li><a href="double.html" class="button large">Continue Reading</a></li>
+										</ul>
+										<ul class="stats">
+											<li><a href="https://www.natesrogueadventures.com/">Capitalism</a></li>
+											</ul>
+									</footer>
+								</article>
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="triple.html">Green Space Index</a></h2>
+										<p>A measure of park space per person.</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-10-22">December 10, 2021</time>
+									<a href="https://storymaps.arcgis.com/stories/1a236dd732df4750ab7e3271451f38bc" class="author"><span class="name">Alan Foote</span><img src="images/alan-small.jpg" alt="Picture of Author" /></a>
+									</div>
+								</header>
+
+
+								<a href="triple.html" class="image featured"><img src="images/Park2.jpeg" alt="Tree Lined River" width="800" height="500"  alt="" /></a>
+								<h2>The final analysis compares the amount of public green space available per person in each respective Census block group.</h2>
+								<p></p>
+
+
+								<footer>
+									<ul class="actions">
+										<li><a href="triple.html" class="button large">Continue Reading</a></li>
+									</ul>
+									<ul class="stats">
+										<li><a href="https://oregonisforadventure.com/waterfalls-near-bend/">Not City Parks</a></li>
+										</ul>
+								</footer>
+							</article>
+
+
+
+						<!-- Pagination -->
+
+					</div>
+
+				<!-- Sidebar -->
+
+
+
+						<!-- About -->
+							<section class="blurb">
+								<p></p>
+								<p></p>
+								<h2>About</h2>
+								<img src="images/alan-small.jpg" alt="Picture of Author" />
+								<p>Graduate student at the University of Washington-Tacoma, researching uneven development and geospatial technologies.</p>
+								<ul class="actions">
+									<li><a href="https://storymaps.arcgis.com/stories/1a236dd732df4750ab7e3271451f38bc" class="button">Learn More</a></li>
+								</ul>
+							</section>
+
+						<!-- Footer -->
+							<section id="footer">
+								<p class="copyright">&copy; Bend Analysis. Design: Alan Foote and  <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+							</section>
+
+					</section>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+	</body>
+</html>
